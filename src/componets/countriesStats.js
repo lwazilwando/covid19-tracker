@@ -16,7 +16,7 @@ function CountriesStats(props){
 
                 {props.countries.map((country)=>{
                     <tr>
-                        <td>{country.country}</td>
+                        <td>{country.Country}</td>
                         <td>{country.TotalConfirmed}</td>
                         <td>{country.NewConfirmed}</td>
                     </tr>
